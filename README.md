@@ -18,16 +18,16 @@ composer install
 Zwróć JSON na stdout:
 
 ```bash
-php index.php "Odpis_Pełny_KRS_0000028860.pdf"
+php index.php "document.pdf"
 ```
 
 Zapisz wynik do pliku:
 
 ```bash
-php index.php "Odpis_Pełny_KRS_0000028860.pdf" > krs.json
+php index.php "document.pdf" > document.json
 ```
 
-Jeśli nie podasz argumentu, skrypt spróbuje użyć domyślnego pliku `Odpis_Pełny_KRS_0000028860.pdf` w katalogu projektu.
+Jeśli nie podasz argumentu, skrypt spróbuje użyć domyślnego pliku `document.pdf` w katalogu projektu.
 
 ## Uruchomienie (WWW)
 
@@ -40,7 +40,7 @@ php -S localhost:8000
 Następnie:
 
 - domyślny plik: `http://localhost:8000/index.php`
-- wskazanie pliku: `http://localhost:8000/index.php?file=Odpis_Pełny_KRS_0000028860.pdf`
+- wskazanie pliku: `http://localhost:8000/index.php?file=document.pdf`
 
 ## Format danych
 
