@@ -1,0 +1,8 @@
+{
+    "name": "local/pdf-to-json",
+    "description": "Konwersja PDF do JSON (tekst + metadane) w PHP.",
+    "license": "proprietary",
+    "require": {
+        "smalot/pdfparser": "^2.12"
+    }
+}

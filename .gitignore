@@ -1,0 +1,15 @@
+# Composer dependencies
+/vendor/
+
+# Local outputs / artifacts
+out*.json
+krs*.json
+*.pdf
+
+# Logs / temp
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
